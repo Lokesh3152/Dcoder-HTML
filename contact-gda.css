@@ -1,0 +1,180 @@
+.contact-gda-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-gda-container1 {
+  display: flex;
+  transform: skewX(20deg);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-decoder-lightblue);
+}
+.contact-gda-container2 {
+  display: flex;
+  transform: skewX(-20deg);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-gda-text {
+  color: var(--dl-color-gray-white);
+  font-size: 1rem;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.contact-gda-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.contact-gda-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.contact-gda-container3 {
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-gda-text01 {
+  color: var(--dl-color-decoder-lightblue);
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.contact-gda-container4 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contact-gda-icon {
+  fill: var(--dl-color-primary-100);
+  width: 32px;
+  height: 32px;
+}
+.contact-gda-text02 {
+  width: auto;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-threeunits);
+}
+.contact-gda-container5 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-gda-icon2 {
+  fill: var(--dl-color-primary-100);
+  width: 32px;
+  height: 32px;
+}
+.contact-gda-text08 {
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-threeunits);
+}
+.contact-gda-container6 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-gda-icon4 {
+  fill: var(--dl-color-primary-100);
+  width: 32px;
+  height: 32px;
+}
+.contact-gda-text09 {
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-threeunits);
+}
+@media(max-width: 991px) {
+  .contact-gda-banner {
+    flex-direction: column;
+  }
+  .contact-gda-image {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .contact-gda-container3 {
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .contact-gda-text02 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+  .contact-gda-text08 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+  .contact-gda-text09 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+  .contact-gda-text10 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .contact-gda-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .contact-gda-text02 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .contact-gda-text08 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .contact-gda-text09 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .contact-gda-text10 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .contact-gda-banner {
+    align-self: center;
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .contact-gda-image {
+    width: var(--dl-size-size-xlarge);
+    height: var(--dl-size-size-xlarge);
+  }
+  .contact-gda-container3 {
+    align-items: center;
+    margin-left: 0px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,97 @@
+.hero-hero {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: space-between;
+}
+.hero-h-t-e-x-t {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+}
+.hero-container {
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-navlink {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-decoder-lightblue);
+}
+.hero-button {
+  cursor: pointer;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  background-color: transparent;
+}
+.hero-image {
+  width: 32%;
+  object-fit: cover;
+}
+.hero-root-class-name {
+  align-self: center;
+}
+.hero-root-class-name1 {
+  align-self: center;
+}
+.hero-root-class-name2 {
+  align-self: center;
+}
+@media(max-width: 1200px) {
+  .hero-hero {
+    height: auto;
+    margin-top: var(--dl-space-space-halfunit);
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-left: var(--dl-space-space-sixunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-sixunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+}
+@media(max-width: 767px) {
+  .hero-image {
+    width: 40%;
+  }
+}
+@media(max-width: 479px) {
+  .hero-hero {
+    width: 100%;
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    align-items: center;
+    padding-left: var(--dl-space-space-fourunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-fourunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero-h-t-e-x-t {
+    width: 100%;
+  }
+  .hero-navlink {
+    width: auto;
+  }
+  .hero-image {
+    width: 88%;
+    height: 88%;
+    margin-top: var(--dl-space-space-twounits);
+  }
+}
